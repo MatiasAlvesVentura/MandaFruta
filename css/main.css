@@ -1,0 +1,343 @@
+header {
+  width: 100%;
+}
+
+section {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+section.box-options {
+  position: relative;
+  background-color: #01BDBD;
+  width: 100%;
+  height: 210px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 4px solid #0090B0;
+}
+section.box-options li a {
+  text-decoration: none;
+  color: #FFF;
+}
+section.box-options li:hover {
+  border-bottom: 1px solid #606368;
+}
+section.box-options li {
+  list-style: none;
+  display: inline-block;
+}
+section.box-options ul {
+  /*padding: 20px 5px 0 5px;
+  float: right;*/
+  word-spacing: 50px;
+  text-align: center;
+}
+section.box-options img {
+  /*position: absolute;
+   margin-top: 10px;
+  margin-left: 30px;*/
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+section.header-tittle {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: 130px;
+  background-color: #FFF;
+}
+section.watermelon-section {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #313131;
+}
+section.watermelon-section .information {
+  display: flex;
+  flex-direction: column-reverse;
+}
+section.watermelon-section .information p,
+section.watermelon-section .information h2 {
+  color: #FFF;
+}
+section.watermelon-section .information h2 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+section.watermelon-section .information p {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 10px;
+}
+section.watermelon-section img {
+  width: 400px;
+  height: 380px;
+}
+section.watermelon-section .image:hover img {
+  transform: scale(1.2);
+}
+section.strawberry-section {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #FF577E;
+  /* img {
+      width: 400px;
+      height: 380px;
+  }*/
+}
+section.strawberry-section .information {
+  display: flex;
+  flex-direction: column-reverse;
+}
+section.strawberry-section .information p,
+section.strawberry-section .information h2 {
+  color: #FFF;
+}
+section.strawberry-section .information h2 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+section.strawberry-section .information p {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 10px;
+}
+section.strawberry-section .image:hover img {
+  transform: scale(1.2);
+}
+section.pear-section {
+  background-color: #FAD431;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+section.pear-section .information {
+  display: flex;
+  flex-direction: column-reverse;
+}
+section.pear-section .information p,
+section.pear-section .information h2 {
+  color: #FFF;
+}
+section.pear-section .information h2 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+section.pear-section .information p {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 10px;
+}
+section.pear-section .image:hover img {
+  transform: scale(1.2);
+}
+section.banana-section {
+  background-color: #FF642C;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+section.banana-section .information {
+  display: flex;
+  flex-direction: column-reverse;
+}
+section.banana-section .information p,
+section.banana-section .information h2 {
+  color: #FFF;
+}
+section.banana-section .information h2 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+section.banana-section .information p {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 10px;
+}
+section.banana-section img {
+  width: 350px;
+  height: 350px;
+}
+section.banana-section .image:hover img {
+  transform: scale(1.2);
+}
+
+@media screen and (min-width: 1010px) {
+  section.box-options {
+    height: 100px;
+  }
+  section.box-options li {
+    margin-right: 30px;
+  }
+  section.box-options ul {
+    padding: 65px 5px 0 5px;
+    float: right;
+    word-spacing: 50px;
+    text-align: center;
+  }
+  section.box-options img {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  section.watermelon-section img {
+    width: 400px;
+    height: 350px;
+  }
+  section.watermelon-section {
+    justify-content: initial;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+  }
+  section.watermelon-section .image {
+    width: 50%;
+  }
+  section.watermelon-section .information {
+    flex-direction: column;
+    width: 40%;
+  }
+  section.watermelon-section .information p {
+    padding-top: 50px;
+    text-align: justify;
+  }
+  section.watermelon-section .information h2 {
+    padding-top: 10px;
+    text-align: end;
+  }
+  section.strawberry-section {
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: initial;
+  }
+  section.strawberry-section .image {
+    width: 50%;
+  }
+  section.strawberry-section .information {
+    flex-direction: column;
+    width: 40%;
+  }
+  section.strawberry-section .information p {
+    padding-top: 50px;
+    text-align: justify;
+  }
+  section.strawberry-section .information h2 {
+    padding-top: 10px;
+    text-align: start;
+  }
+  section.pear-section {
+    justify-content: initial;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+  }
+  section.pear-section .image {
+    width: 50%;
+  }
+  section.pear-section .information {
+    flex-direction: column;
+    width: 40%;
+  }
+  section.pear-section .information p {
+    padding-top: 50px;
+    text-align: justify;
+  }
+  section.pear-section .information h2 {
+    padding-top: 10px;
+    text-align: end;
+  }
+  section.banana-section {
+    justify-content: initial;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+  }
+  section.banana-section .image {
+    width: 50%;
+  }
+  section.banana-section .information {
+    flex-direction: column;
+    width: 40%;
+  }
+  section.banana-section .information p {
+    padding-top: 50px;
+    text-align: justify;
+  }
+  section.banana-section .information h2 {
+    padding-top: 10px;
+    text-align: start;
+  }
+}
+footer {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: #1F1F1F;
+  height: 20vh;
+}
+footer p {
+  color: #FFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.5s;
+}
+
+.box-father {
+  width: 70%;
+  margin: auto;
+}
+
+body {
+  background-color: #C0EBF2;
+}
+
+body,
+html {
+  scroll-behavior: smooth;
+}
+
+.button {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #707070;
+  border-radius: 50%;
+}
+.button i {
+  font-size: 30px;
+  text-decoration: none;
+  color: #FFF;
+}/*# sourceMappingURL=main.css.map */

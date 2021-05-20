@@ -1,0 +1,13 @@
+@use 'colors';
+footer {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: colors.$footer-color;
+    height: 20vh;
+    p {
+        color: colors.$text-color;
+    }
+}

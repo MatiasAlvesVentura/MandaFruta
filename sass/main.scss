@@ -1,4 +1,5 @@
-@use 'box-father';
-@use 'header';
-@use 'footer';
-@use 'colors';
+@use 'components/header';
+@use 'components/footer';
+@use 'components/colors';
+@use 'components/general';
+@use 'components/boton';
